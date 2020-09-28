@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Sep_18号</title>
+  <!--
+	img标签的属性
+
+	src--    连接图片
+	alt--     当图片路径出错时，就会显示页面中的文字
+	style    样式--用于修饰标签的
+	width   img独有的属性   可以改变img的高度
+	height  img标签独有的属性  可以改变img的高度
+
+	分割线  ----------<hr/>
+				br-------回车/换行符
+				
+	占位符
+	          换行符  空格
+	p        段落/可以当换行使用
+	br       换行符
+	img    插入图片
+	a         超级链接（跳转当前页面或者多页面）
+	
+	基础结构标签
+	meta
+	title
+	head
+	body
+	html
+
+
+	align   ---排列（只能用于修饰文字，在h1和p标签内）
+	left          左侧（默认值）
+	right       右侧
+	center     中心
+
+	width这个属性   不能应用在除了img/table以外的标签上
+
+	如果其他标签想改变宽度和高度，此时只能使用style样式进行修改
+	(注意:对于a,b,i,u,ing,em,sub,sup等行内标签是不能直接用style进行宽高修饰的)
+	
+-->
+ </head>
+ <body>
+				<h1 style="font-size:2em;color:orange;" align="center">网页的默认像素大小为16px，h1永远是默认像素的2倍
+				</h1>
+
+				<a href="" style="width:100%;display:"block">我是一个A</a>
+  
+ </body>
+</html>

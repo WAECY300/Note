@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>表-头-尾-主体</title>
+  <style type="text/css">
+                thead{color:yellow}
+				tfoot{color:black}
+				tbody{color:white}
+				caption{color:red}
+  </style>
+ </head>
+ <body>
+             <table border="3" width="500" height="500" cellspacing="0">
+			 <caption>这是一个表格标题</caption>
+			 <h3>水平标题</h3>
+			           <tr>
+						<th>水平表头</th>
+						<th>水平1</th>
+						<th>水平2</th>
+					   </tr>
+					   <tr>
+					    <td>aaaaa</td>
+						<td>bbbbb</td>
+						<td>cccccc</td>
+					   </tr>
+
+					   <tr>
+					     <td>AAAAAA</td>
+						 					     <td>BBBBBB</td>
+												 					     <td>CCCCCCCCCC</td>
+					   </tr>
+
+
+					  <h3>垂直标题</h3>
+					  
+					  <tr>
+							<th>垂直标题</th>
+							<td>垂直1</td>
+					  </tr>
+
+					  <tr>
+							<th>垂直标题2</th>
+							<td>垂直2</td>
+					  </tr>
+
+					  <tr>
+					        <th>垂直标题3</th>
+							<td>垂直3</td>
+					  </tr>
+			 </table>
+<hr />
+
+			 <h3>没有单元格边距(cellspacing)</h3>
+			 <table border="1" cellspacing="0">
+			 <caption>标题</caption>
+			 <colgroup>
+								<col span="" style="background-color:red"/>
+								<col span="" style="background-color:blue"/>
+								<col span="" style="background-color:orange"/>
+			 </colgroup>
+			 <tr>
+						<td>一</td>
+						<td>二</td>
+						<td>三</td>
+			 </tr>
+
+			 <tr>
+						<td>斩</td>
+						<td>杀</td>
+						<td>净</td>
+			 </tr>
+
+			 <tr>
+						<td>乱</td>
+						<td>散</td>
+						<td>角</td>
+			 </tr>
+
+			 <tr>
+						<td>华</td>
+						<td>殇</td>
+						<td>羽</td>
+			 </tr>
+			 
+			 </table>
+
+			 <table border="2" cellspacing="0">
+			 <caption>表格标题</caption>
+			 <colgroup>
+			                     <col span="" style="background-color:red"/>
+								 <col style="background-color:blue"/>
+								 <col style="background-color:grey"/>
+								 <col style="background-color:orange"/>
+			 </colgroup>
+							<thead>
+										<tr>
+											<th>白蛇传之缘起</th>
+											<td>君莫笑</td>
+											<td>叶秋</td>
+											<td>叶修</td>
+										</tr>
+							</thead>
+
+							<tfoot>
+								<tr>
+										<th>八佰</th>
+										<td>夜雨声烦</td>
+										<td>黄少天</td>
+										<td>龙牙</td>
+								</tr>
+							</tfoot>
+
+							<tbody>
+								<tr>
+								<th>全职高手之巅峰荣耀</th>
+								<td>。。。。。</td>
+								<td>洛天依</td>
+								<td>乐正绫</td>
+
+								</tr>
+							</tbody>
+			 </table>
+			 <var>T</var>
+ </body>
+</html>

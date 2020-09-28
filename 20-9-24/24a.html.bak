@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>距离</title>
+
+  <style type="text/css">
+										div{
+										     width:200px;
+											 height:200px;
+											 background-color:blue;
+										}
+										.d1{
+										  background-color:red;
+										  border: 10px dashed gold;
+										  width:180px;
+										  height:180px;
+										  margin-bottom:20px;
+										}
+										/*
+										  外边距：margin  不存在颜色，可以撑开多个元素之间的距离
+										*/
+										.d2{
+										  background-color:blue;
+										  padding:10px;
+										}
+
+										input:focus{
+														background-color:blue;
+															}
+  </style>
+ </head>
+ <body>
+							<div class="d1"></div>
+							<div class="d2"></div>
+ </body>
+</html>

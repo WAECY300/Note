@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>。。。。</title>
+  <style>
+                   div{
+				        height:1000px;
+						width:1500px;
+						border: 10px dotted	red;
+						background-image:url("./../狂三.jpg");
+						/*设置背景图片不重复*/
+						background-repeat:no-repeat;
+						/* 调整图片位置*/
+						background-position:center;
+						/*背景图片大小*/
+						background-size:cover;
+						background-color:#000000;
+					
+				   }
+   </style>
+ </head>
+ <body>
+				<img />
+				<center/>
+				<div align="justify">
+							
+				</div>
+				</CENTER>
+ </body>
+</html>

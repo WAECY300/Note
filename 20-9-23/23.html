@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>复习</title>
+  <style>
+					body{
+					         background-color:#000000;
+					}
+
+                   div  {
+						width:2000px;
+						height:2000px;
+						border:10px solid gold;
+						background-color:grey;
+				         }
+
+					#d1{
+							border-right:30px red dashed;
+							border-top:30px #ffffff solid;
+							border-bottom:30px #0000ff solid;
+							border-left:30px #0000ff dashed;
+							border-left-color:#ff0000;
+							border-top-style:double;
+
+							border-radius:100px/50px;
+
+					      }
+					.d1{
+							border-radius:8px  6px;
+
+					     }
+  </style>
+ </head>
+ <body>
+			    <pre>
+				<b>
+				<span style="color:#ff0000">
+			    常用
+               font-size         字体大小
+			   font-weight    字体加粗
+			   font-style              样式
+			   font-height            行高
+			   text-align	            文本排列
+			   text-dectoration   文本修饰
+			   text-shadow         阴影
+
+				偶尔用到
+			   word-space        空白处理
+			   text-overflow        文本溢出
+			   text-indent            文本缩进
+
+			   word-spacing      字体间距
+			   
+			   color
+
+			   width
+			   height
+			   background-color：
+			       背景颜色
+				   背景图片
+				   背景重复
+				   背景大小（拉伸）
+				   背景位置
+				
+
+			   border:
+			       四个边都有边框
+				   border-right :大小   颜色   线（样式）
+				   border-left    大小   颜色   线（样式）
+				   border-bottom  大小   颜色   线（样式）
+				   border-top         大小   颜色   线（样式）
+                   
+				   border-color
+				   border-width
+				   border-style
+
+				   border-right-color
+				   border-left-width
+				   border-top-style
+				   </span>
+					</b>
+				   </pre>
+
+				<center>
+				<div class="d1" id="d1">
+
+						<p 
+						style="text-shadow:3px 5px 3px red;color:gold"> 
+						一叶知秋
+		                </p>
+						</br>
+						<p style="text-shadow:5px 5px 3px blue; color:orange">
+						<b>
+						          啧啧啧~~~~
+						</b>
+						</p>
+						<hr />
+						<h3><span style="color:red">文本域</span></h3>
+						<form action="">
+						           账号：<input type="text" name="user" 
+									  placeholder="输入账号：">
+									  <br />
+									密码：<input type="password" name="pwd"
+									  placeholder="输入密码：89743457yang"/>
+						</form>
+						<hr />
+						<h3><span style="color:red">单选框</span></h3>
+						<form action="">
+									<input type="radio" name="profession" value="散人" />散人
+									<br />
+									<input type="radio" name="profession" value="战法" />战法
+						</form>
+						<hr />
+						<h3><span style="color:red">复选框</span></h3>
+						<form action="">
+									<input type="checkbox" name="violet" value="true"/>请选择~~~~~ ~~~~ ~~  ~
+									<br />
+									<input type="checkbox" name="shake" value="error"/>请问您需要法律援助吗？
+						</form>
+						<hr />
+						<h3><span style="color:red">下拉列表</span></h3>
+						<form action="">
+									<select name="weapon" id="1">
+											<option value="伞">千机伞</option>
+											<option value="枪">洛林机枪</option>
+											<option value="炮">反坦克炮</option>
+											<option value="掌">落花掌</option>
+											<option value="指">一指禅</option>
+									</select>
+						</form>
+						<hr />
+						<h3><span style="color:red">预选下拉列表</span>（说白了就是下拉列表中预选的元素中多写一个selected元素这里做个示范，我的预选是炮，看好了。。。）</h3>
+						<form action="">
+									<select name="weapon" id="1">
+											<option value="伞">千机伞</option>
+											<option value="枪">洛林机枪</option>
+											<option value="炮" selected>反坦克炮</option>
+											<option value="掌">落花掌</option>
+											<option value="指">一指禅</option>
+									</select>
+						</form>
+						<hr />
+						<h3>文本框</h3>
+						<textarea name="" id="" cols="30" rows="10">
+						        这里写文本框填充的内容、name和id一般不用
+						</textarea>
+						<hr />
+								<form>
+										登录账号：<input type="text" name="a">
+										<br />
+										登录密码：<input type="password" name="a">
+										<p>上面的是一个<span style="color:gold">单选按钮</span></p>
+								</form>
+								<hr />
+								<form>
+										<input type="radio" name="A" value="...">呵呵
+										<br />
+										<input type="radio" name="A" value="...">哈哈
+										
+								</form>
+								<hr />
+								<form>
+										  账号：<input type="checkbox" name="b" value=".......">emmm
+										  <br />
+										  密码：<input type="checkbox" name="c"
+										  value="。。。">emmmm
+								</form>
+								<hr />
+								<form>
+											<select name="color">
+													<option value="#000000">黑色</option>
+													<option value="#ffffff">白色</option>
+													<option value="#ff0000">红色</option>
+													<option value="#0000ff" selected>蓝色</option>
+											</select>
+								</form>
+								<h3>按钮</h3>
+								<form action="">
+											<input type="button" value="点击！！！"/>
+								</form>
+								<hr />
+								<form action="">
+											账号<input type="text" name="k" value=""><br />
+											密码<input type="password" name="t" value=""><br />
+											<input type="submit"  name="" value="提交">
+								</form>
+				
+				</div>
+				</center>
+ </body>
+</html>

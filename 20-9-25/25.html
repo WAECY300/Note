@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>。。。</title>
+  <style>
+                    div{
+                         height:300px;
+						 width:300px;
+ 					}
+					.d1{
+					       background-color:red;
+						   float:left;
+					     }
+					.d2{
+							background-color:blue;
+							float:right;
+					}
+					.d2::after{
+								content:"我是伪类元素";
+								display:block;
+								float:both;
+								border: 10px dashed gold;
+								font-weight:bold;
+					}
+					.d2::before{
+								content:"我是伪类元素";
+								border: 10px dashed yellow;
+								font-weight:bold;
+					}  
+
+
+					.a{
+						width:300px;
+					    height:500px;
+						border: 5px solid red;
+
+					}
+
+					.a div{
+								width:200px;
+								height:100px;
+								background-color:blue;
+					}
+  </style>
+ </head>
+ <body>
+				<p style="text-decoration:underline;color:red">酒肉穿肠过</p>
+				<div class="d1">
+				       zzz
+				</div>
+				<div class="d2">
+				      hhh
+					  <p>一叶知秋</p>
+				</div>
+
+
+				<div class="a">
+
+				<div class="b">
+				   内部的盒模型
+				</div>
+				   
+				</div>
+ </body>
+</html>

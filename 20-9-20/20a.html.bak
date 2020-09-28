@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>表格跨列跨行练习</title>
+ </head>
+ <body>
+             <table border="1" width="800px" height="400" cellspacing="0">
+			 <caption>表格标题</caption>
+			 <colgroup>
+								<col style="background-color:blue"/>
+								<col style="background-color:red"/>
+								<col style="background-color:orange"/>
+			 </colgroup>
+	
+			<tr height="100px">
+					<td width="200px" height="100" colspan="1">
+					
+					</td>
+					<td colspan="2" width="600">饮世间最烈的酒
+					  去   凡间   洪楼   斗酒    赋诗为  落寞诗卷 有几斗
+					</td>
+					<td rowspan="2">谪仙</td>
+					
+			</tr>
+			
+			<tr>
+                    
+                    <td colspan="2">赤伶</td>
+					<td width="200">关山点酒</td>
+			</tr>
+ </body>
+</html>

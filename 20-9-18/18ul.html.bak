@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <style type="">
+                        body{
+								background-image:url('./../02.png');
+								}
+  </style>
+  <title>列表</title>
+ </head>
+ <body>
+  <!--   
+			UL  无序列表
+			列表--上阵不离父子兵
+			ul内，有且只能存有li元素（标签）
+			li元素内可以包含其他元素（标签）
+  
+  
+			属性：
+			        type    类型
+							1.square     正方形
+							2.circle       空心圆
+							3.disc         实心圆
+  -->
+			 <ul type="square">
+				<li>第一章
+				<p>........
+						<ul>
+								<li>。。。。。。。。。</li>
+								<li>、、、、、、、、、、</li>
+								<li>；；；；；；；；；；；</li>
+						</ul>
+				</p>
+				</li>
+				<a href=""></a>
+				<li>第二章</li>
+				<p></p>
+				<li>第三章</li>
+				<li></li>
+			 </ul>
+
+
+
+			   <!--
+			          OL   有序列表   默认序列号的起始值为1，但我们可以通过为ol标签设置start属性来改变它的起始值
+
+					  reversed--倒序 ----后加type可指定相关类型
+
+
+
+			   -->
+			   <ol reversed type='i'>
+						<li>一</li>
+						<li>刀</li>
+						<li>修</li>
+						<li>罗</li>
+			   </ol>
+  
+
+  			   <ol start="5">
+						<li>一</li>
+						<li>刀</li>
+						<li>修</li>
+						<li>罗</li>
+			   </ol>
+
+
+				<!--
+				     DL  自定义列表
+
+				-->
+			   <dl>
+			   <dt>宫</dt>
+			   <dt>角</dt>
+			   <dt>徽</dt>
+			   <dt>羽</dt>
+			   <dt>殇</dt>
+			  
+				   <dd>牙</dd>
+				   <dd>柯</dd>
+				   <dd>绫</dd>
+				   <dd>弦</dd>
+				   <dd>依</dd>
+			   </dl>
+ </body>
+</html>

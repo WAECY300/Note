@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>。。。。</title>
+  <style type="text/css">
+				h1{
+				     /*属性：值*/
+					 text-align:center;
+					 color:blue;
+					 color:rgb(0,0,255);
+					 font-weight:50px;
+					 text-decoration:underline/overline/line-through/none;
+				    }
+					h2{
+						text-decoration:blink;
+						font-size:150px;
+						font-weight:bold;
+						color:orange;
+						text-align:center;
+						text-shadow:2px 2px 2px orange;
+						color:transparent;
+	
+						}
+					p{
+						text-align:center;
+						color:#ff0000;
+						font-size:120px;
+					  }
+					  h3{
+					      white-space:pre;
+						  text-overflow:hidden;(文本溢出隐藏)
+						  text-overflow:ellipsis;
+						  overflow（盒子内容溢出隐藏）:hidden;(溢出隐藏)
+						  word-spacing:20px;
+					  }
+  </style>
+ </head>
+ <body background="./../02.png">
+				<h1 style="text-align:center;color:red;">初始CSS</h1>
+				<h1>表演2</h1>
+				<h2>闪耀</h2>
+				<p><b>君莫笑</b></p>
+				<h3 style="color:#ff0000">标题标题标题标题
+				标题标题标题标题标题标题标
+				题标题标题标题标题标题标题标题
+				标题标题标题标题标题标题标题标题标题
+				标题标题标题标题标题标题标题标题标题标题
+				标题标题标题标题标题标题标题标题标题标题标题
+				标题标题标题标题标题标题标题标题标题标题标题标
+				题标题标题标题标题标题标题标题标题标题标题标题标
+				题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题</h3>
+
+
+				<table border="2" cellspacing="0" width="1000" height="1000" bordercolor="red" align="center">
+						<caption>表格标题</caption>
+						<colgroup>
+										<col style="background-color:#0000ff">
+										<col style="background-color:#00ff00"/>
+										<col style="background-color:#ffff00"/>
+						</colgroup>
+
+						<thead>
+									<tr>
+										<td>徽</td>
+										<td>牙</td>
+										<td>弦</td>
+									</tr>
+						</thead>
+						<tfoot style="text-align:center">
+									<tr>
+										 <td colspan="3">300の英雄</td>
+									</tr>
+						</tfoot>
+ 
+						<tbody>
+									<tr>
+											<td border="3">洛天依</td>
+											<td border="3">初音未来</td>
+											<td border="3">东方栀子</td>
+									</tr>
+
+									<tr style="color:#ff0000">
+											<td>叶秋</td>
+											<td>苏沐橙</td>
+											<td>夜雨声烦</td>
+									</tr>
+
+									<tr>
+											<td>初始之音</td>
+											<td>华风夏韵</td>
+											<td>十年荣耀</td>
+									</tr>
+						</tbody>
+				
+				</table>
+
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quod tenetur expedita ad voluptate optio. Libero maxime fuga velit sequi, dolores ab, quis facilis doloribus quisquam provident quia ipsa explicabo!</p>
+				<hr />
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium hic omnis nemo tenetur perferendis eaque in, repellat nobis enim voluptatibus libero. Quaerat nostrum quasi ipsam! Commodi nostrum nobis omnis consequuntur?</p>
+ </body>
+</html>

@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+              h1-h6
+			  img  src='' alt='' width='' height='' title=''
+			  a href=''
+			  p algin='right/center/left'
+			  ul-li  type='square/disc/circle'
+			  ol-li  type='1/a/A/i/I' start='数字'
+			  dl-dt-dd
+			  表格
+			  table
+						tr 行
+							td 单元格
+
+			  在表格内，通过行与列来创建表格，
+			  tr代表行，td代表列，也叫单元格
+
+		      默认状态下，table制作出来的表格没有基本表格出现的边框线等，所以，我们可以为table添加如下的属性---border
+			        border属性
+					table的border属性用于为table元素添加边框，值为数字，单位可有可无（border只作用于table和td这俩个元素，不能为tr提供边框效果）
+
+					width和height  为其设置宽高
+
+
+
+
+ </body>
+
+</html>
